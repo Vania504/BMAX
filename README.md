@@ -1,4 +1,4 @@
-# digital_agency
+# BMax
 
 > A Vue.js project
 
