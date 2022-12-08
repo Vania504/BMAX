@@ -3,7 +3,7 @@
     <v-main>
       <v-container>
         <v-row no-gutters :style="$vuetify.breakpoint.xs ? 'margin-top: 20px;' : 'margin-top: 83px'" class="ml-5">
-          <v-col cols="2" class="pt-3">
+          <v-col cols="2" xl="1" lg="1" md="1" sm="2" class="pt-3">
             <div class="cubeFirst"></div>
             <div class="cubeSecond"></div>
           </v-col>

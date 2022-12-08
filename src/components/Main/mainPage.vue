@@ -146,7 +146,7 @@ export default {
     );
   }
   .cube {
-    margin-top: 120px;
+    margin-top: 85px;
     margin-left: 15px;
   }
   .firstCube {

@@ -26,7 +26,8 @@ export default {
 @media only screen and (min-width: 610px) {
   .reviewsBackground {
     background-image: url("../../assets/img/reviewsBackground.png");
-    height: 574px;
+    min-height: 574px;
+    max-height: max-content;
     background-size: cover;
   }
 }

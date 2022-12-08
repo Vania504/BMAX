@@ -3,7 +3,8 @@
     width="332px"
     height="232px"
     color="#000000"
-    style="margin-bottom: 16px; margin-left: 16px; padding: 25px"
+    style="margin-bottom: 16px; padding: 25px"
+    :style="$vuetify.breakpoint.xs ? 'margin-left: 0px' : 'margin-left: 16px;'"
   >
     <v-icon color="#E20044" x-large>mdi-lightbulb-on-outline mdi-38px</v-icon
     ><br /><br />

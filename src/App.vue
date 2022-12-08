@@ -17,5 +17,6 @@ export default {
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   background-color: black;
+  overflow-x: hidden;
 }
 </style>
