@@ -3,7 +3,7 @@
     <v-main style="padding: 0px">
       <v-container style="padding: 0px">
         <v-row no-gutters align="end" justify="center" v-if="!$vuetify.breakpoint.xs">
-          <div
+          <!-- <div
             style="
               width: 90px;
               height: 90px;
@@ -12,8 +12,8 @@
               align: center;
               padding-top: 25px;
             "
-          >
-            <span
+          > -->
+            <!-- <span
               style="
                 z-index: 20;
                 font-weight: 600;
@@ -22,8 +22,9 @@
                 color: #ffffff;
               "
               >Logo</span
-            >
-          </div>
+            > -->
+            <img src="@/assets/img/logo.svg" width="140px" alt="logo"/>
+          <!-- </div> -->
           <p
             style="
               font-weight: 600;
