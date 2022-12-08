@@ -1,0 +1,35 @@
+.whiteText {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .componentSubtitle {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #e20044;
+    }
+
+    .componentTitle {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (min-width: 610px) {
+    .componentSubtitle {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #e20044;
+    }
+
+    .componentTitle {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 140%;
+        color: #ffffff;
+    }
+}
